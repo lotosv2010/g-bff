@@ -9,6 +9,7 @@ const registry = new ZookeeperRegistry({
   address: '127.0.0.1:2181',
 });
 
+// !调用 RPC 服务（从注册中心获取服务列表）
 async function invoke() {
   // 创建 RPC 客户端
   const client = new RpcClient({ logger, registry });

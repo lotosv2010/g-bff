@@ -1,0 +1,320 @@
+2025-04-18 11:06:20,529 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@177] - Reading configuration from: /Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../conf/zoo.cfg
+2025-04-18 11:06:20,537 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@440] - clientPortAddress is 0.0.0.0:2181
+2025-04-18 11:06:20,539 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@444] - secureClientPort is not set
+2025-04-18 11:06:20,539 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@460] - observerMasterPort is not set
+2025-04-18 11:06:20,539 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@477] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2025-04-18 11:06:20,542 [myid:] - INFO  [main:o.a.z.s.DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2025-04-18 11:06:20,542 [myid:] - INFO  [main:o.a.z.s.DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2025-04-18 11:06:20,542 [myid:] - INFO  [main:o.a.z.s.DatadirCleanupManager@101] - Purge task is not scheduled.
+2025-04-18 11:06:20,542 [myid:] - WARN  [main:o.a.z.s.q.QuorumPeerMain@139] - Either no config or no quorum defined in config, running in standalone mode
+2025-04-18 11:06:20,544 [myid:] - INFO  [main:o.a.z.j.ManagedUtil@46] - Log4j 1.2 jmx support not found; jmx disabled.
+2025-04-18 11:06:20,545 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@177] - Reading configuration from: /Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../conf/zoo.cfg
+2025-04-18 11:06:20,546 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@440] - clientPortAddress is 0.0.0.0:2181
+2025-04-18 11:06:20,546 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@444] - secureClientPort is not set
+2025-04-18 11:06:20,546 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@460] - observerMasterPort is not set
+2025-04-18 11:06:20,546 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@477] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2025-04-18 11:06:20,546 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServerMain@123] - Starting server
+2025-04-18 11:06:20,560 [myid:] - INFO  [main:o.a.z.s.ServerMetrics@64] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@1aa7ecca
+2025-04-18 11:06:20,563 [myid:] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@51] - ACL digest algorithm is: SHA1
+2025-04-18 11:06:20,563 [myid:] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@65] - zookeeper.DigestAuthenticationProvider.enabled = true
+2025-04-18 11:06:20,566 [myid:] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2025-04-18 11:06:20,577 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+2025-04-18 11:06:20,578 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -   ______                  _                                          
+2025-04-18 11:06:20,578 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -  |___  /                 | |                                         
+2025-04-18 11:06:20,578 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2025-04-18 11:06:20,578 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2025-04-18 11:06:20,578 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2025-04-18 11:06:20,578 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2025-04-18 11:06:20,578 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               | |                     
+2025-04-18 11:06:20,578 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               |_|                     
+2025-04-18 11:06:20,578 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+2025-04-18 11:06:20,583 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:zookeeper.version=3.9.3-c26634f34490bb0ea7a09cc51e05ede3b4e320ee, built on 2024-10-17 23:21 UTC
+2025-04-18 11:06:20,583 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:host.name=localhost
+2025-04-18 11:06:20,583 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.version=14.0.2
+2025-04-18 11:06:20,583 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.vendor=Oracle Corporation
+2025-04-18 11:06:20,583 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.home=/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
+2025-04-18 11:06:20,583 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.class.path=/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/classes:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../zookeeper-server/target/classes:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../build/classes:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../zookeeper-metrics-providers/zookeeper-prometheus-metrics/target/lib/*.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../zookeeper-server/target/lib/*.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../build/lib/*.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/zookeeper-prometheus-metrics-3.9.3.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/zookeeper-jute-3.9.3.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/zookeeper-3.9.3.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/snappy-java-1.1.10.5.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/slf4j-api-1.7.30.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/simpleclient-0.9.0.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/simpleclient_servlet-0.9.0.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/simpleclient_hotspot-0.9.0.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/simpleclient_common-0.9.0.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-transport-native-unix-common-4.1.113.Final.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-transport-native-epoll-4.1.113.Final-linux-x86_64.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-transport-classes-epoll-4.1.113.Final.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-transport-4.1.113.Final.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-tcnative-classes-2.0.66.Final.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-tcnative-boringssl-static-2.0.66.Final.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-tcnative-boringssl-static-2.0.66.Final-windows-x86_64.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-tcnative-boringssl-static-2.0.66.Final-osx-x86_64.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-tcnative-boringssl-static-2.0.66.Final-osx-aarch_64.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-tcnative-boringssl-static-2.0.66.Final-linux-x86_64.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-tcnative-boringssl-static-2.0.66.Final-linux-aarch_64.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-resolver-4.1.113.Final.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-handler-4.1.113.Final.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-common-4.1.113.Final.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-codec-4.1.113.Final.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/netty-buffer-4.1.113.Final.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/metrics-core-4.1.12.1.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/logback-core-1.2.13.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/logback-classic-1.2.13.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/jline-2.14.6.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/jetty-util-ajax-9.4.56.v20240826.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/jetty-util-9.4.56.v20240826.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/jetty-servlet-9.4.56.v20240826.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/jetty-server-9.4.56.v20240826.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/jetty-security-9.4.56.v20240826.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/jetty-io-9.4.56.v20240826.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/jetty-http-9.4.56.v20240826.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/javax.servlet-api-3.1.0.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/jackson-databind-2.15.2.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/jackson-core-2.15.2.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/jackson-annotations-2.15.2.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/commons-io-2.17.0.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/commons-cli-1.5.0.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../lib/audience-annotations-0.12.0.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../zookeeper-*.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../zookeeper-server/src/main/resources/lib/*.jar:/Users/robin/Downloads/01 git/node/g-bff/zookeeper/bin/../conf:.:/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/lib/tools.jar
+2025-04-18 11:06:20,583 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.library.path=/Users/robin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2025-04-18 11:06:20,583 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.io.tmpdir=/var/folders/12/858k1qvd2b35mw752_5hsxfc0000gp/T/
+2025-04-18 11:06:20,583 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.compiler=<NA>
+2025-04-18 11:06:20,583 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.name=Mac OS X
+2025-04-18 11:06:20,584 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.arch=x86_64
+2025-04-18 11:06:20,584 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.version=10.16
+2025-04-18 11:06:20,584 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:user.name=robin
+2025-04-18 11:06:20,584 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:user.home=/Users/robin
+2025-04-18 11:06:20,584 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:user.dir=/Users/robin/Downloads/01 git/node/g-bff
+2025-04-18 11:06:20,584 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.free=106MB
+2025-04-18 11:06:20,585 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.max=1000MB
+2025-04-18 11:06:20,585 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.total=130MB
+2025-04-18 11:06:20,585 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@149] - zookeeper.enableEagerACLCheck = false
+2025-04-18 11:06:20,585 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@162] - zookeeper.digest.enabled = true
+2025-04-18 11:06:20,585 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@166] - zookeeper.closeSessionTxn.enabled = true
+2025-04-18 11:06:20,585 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@2242] - zookeeper.serializeLastProcessedZxid.enabled = true
+2025-04-18 11:06:20,586 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1585] - zookeeper.flushDelay = 0 ms
+2025-04-18 11:06:20,586 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1594] - zookeeper.maxWriteQueuePollTime = 0 ms
+2025-04-18 11:06:20,586 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1603] - zookeeper.maxBatchSize=1000
+2025-04-18 11:06:20,586 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@287] - zookeeper.intBufferStartingSizeBytes = 1024
+2025-04-18 11:06:20,588 [myid:] - INFO  [main:o.a.z.s.BlueThrottle@141] - Weighed connection throttling is disabled
+2025-04-18 11:06:20,589 [myid:] - INFO  [main:o.a.z.s.AuthenticationHelper@66] - zookeeper.enforce.auth.enabled = false
+2025-04-18 11:06:20,589 [myid:] - INFO  [main:o.a.z.s.AuthenticationHelper@67] - zookeeper.enforce.auth.schemes = []
+2025-04-18 11:06:20,590 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1395] - minSessionTimeout set to 4000 ms
+2025-04-18 11:06:20,590 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1404] - maxSessionTimeout set to 40000 ms
+2025-04-18 11:06:20,592 [myid:] - INFO  [main:o.a.z.s.ResponseCache@45] - getData response cache size is initialized with value 400.
+2025-04-18 11:06:20,592 [myid:] - INFO  [main:o.a.z.s.ResponseCache@45] - getChildren response cache size is initialized with value 400.
+2025-04-18 11:06:20,593 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@109] - zookeeper.pathStats.slotCapacity = 60
+2025-04-18 11:06:20,593 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@110] - zookeeper.pathStats.slotDuration = 15
+2025-04-18 11:06:20,594 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@111] - zookeeper.pathStats.maxDepth = 6
+2025-04-18 11:06:20,594 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@112] - zookeeper.pathStats.initialDelay = 5
+2025-04-18 11:06:20,594 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@113] - zookeeper.pathStats.delay = 5
+2025-04-18 11:06:20,594 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@114] - zookeeper.pathStats.enabled = false
+2025-04-18 11:06:20,598 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1622] - The max bytes for all large requests are set to 104857600
+2025-04-18 11:06:20,598 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1636] - The large request threshold is set to -1
+2025-04-18 11:06:20,598 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@385] - Created server with tickTime 2000 ms minSessionTimeout 4000 ms maxSessionTimeout 40000 ms clientPortListenBacklog -1 dataLogdir ./data/version-2 snapdir ./data/version-2
+2025-04-18 11:06:20,634 [myid:] - INFO  [main:o.e.j.u.l.Log@170] - Logging initialized @1104ms to org.eclipse.jetty.util.log.Slf4jLog
+2025-04-18 11:06:20,715 [myid:] - WARN  [main:o.e.j.s.h.ContextHandler@1662] - o.e.j.s.ServletContextHandler@28f2a10f{/,null,STOPPED} contextPath ends with /*
+2025-04-18 11:06:20,716 [myid:] - WARN  [main:o.e.j.s.h.ContextHandler@1673] - Empty contextPath
+2025-04-18 11:06:20,738 [myid:] - INFO  [main:o.e.j.s.Server@375] - jetty-9.4.56.v20240826; built: 2024-08-26T17:15:05.868Z; git: ec6782ff5ead824dabdcf47fa98f90a4aedff401; jvm 14.0.2+12-46
+2025-04-18 11:06:20,766 [myid:] - INFO  [main:o.e.j.s.s.DefaultSessionIdManager@334] - DefaultSessionIdManager workerName=node0
+2025-04-18 11:06:20,766 [myid:] - INFO  [main:o.e.j.s.s.DefaultSessionIdManager@339] - No SessionScavenger set, using defaults
+2025-04-18 11:06:20,767 [myid:] - INFO  [main:o.e.j.s.s.HouseKeeper@132] - node0 Scavenging every 600000ms
+2025-04-18 11:06:20,772 [myid:] - WARN  [main:o.e.j.s.ConstraintSecurityHandler@759] - ServletContext@o.e.j.s.ServletContextHandler@28f2a10f{/,null,STARTING} has uncovered http methods for path: /*
+2025-04-18 11:06:20,786 [myid:] - INFO  [main:o.e.j.s.h.ContextHandler@921] - Started o.e.j.s.ServletContextHandler@28f2a10f{/,null,AVAILABLE}
+2025-04-18 11:06:20,807 [myid:] - INFO  [main:o.e.j.s.AbstractConnector@333] - Started ServerConnector@865dd6{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2025-04-18 11:06:20,807 [myid:] - INFO  [main:o.e.j.s.Server@415] - Started @1277ms
+2025-04-18 11:06:20,807 [myid:] - INFO  [main:o.a.z.s.a.JettyAdminServer@201] - Started AdminServer on address 0.0.0.0, port 8080 and command URL /commands
+2025-04-18 11:06:20,812 [myid:] - INFO  [main:o.a.z.s.ServerCnxnFactory@172] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2025-04-18 11:06:20,814 [myid:] - WARN  [main:o.a.z.s.ServerCnxnFactory@337] - maxCnxns is not configured, using default value 0.
+2025-04-18 11:06:20,816 [myid:] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@652] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2025-04-18 11:06:20,817 [myid:] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@660] - binding to port 0.0.0.0/0.0.0.0:2181
+2025-04-18 11:06:20,829 [myid:] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2025-04-18 11:06:20,829 [myid:] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2025-04-18 11:06:20,829 [myid:] - INFO  [main:o.a.z.s.ZKDatabase@134] - zookeeper.snapshotSizeFactor = 0.33
+2025-04-18 11:06:20,830 [myid:] - INFO  [main:o.a.z.s.ZKDatabase@154] - zookeeper.commitLogCount=500
+2025-04-18 11:06:20,835 [myid:] - INFO  [main:o.a.z.s.p.SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2025-04-18 11:06:20,835 [myid:] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@480] - Snapshotting: 0x0 to ./data/version-2/snapshot.0
+2025-04-18 11:06:20,839 [myid:] - INFO  [main:o.a.z.s.ZKDatabase@291] - Snapshot loaded in 9 ms, highest zxid is 0x0, digest is 1371985504
+2025-04-18 11:06:20,840 [myid:] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@480] - Snapshotting: 0x0 to ./data/version-2/snapshot.0
+2025-04-18 11:06:20,841 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@589] - Snapshot taken in 1 ms
+2025-04-18 11:06:20,849 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::o.a.z.s.PrepRequestProcessor@138] - PrepRequestProcessor (sid:0) started, reconfigEnabled=false
+2025-04-18 11:06:20,849 [myid:] - INFO  [main:o.a.z.s.RequestThrottler@75] - zookeeper.request_throttler.shutdownTimeout = 10000 ms
+2025-04-18 11:06:20,863 [myid:] - INFO  [main:o.a.z.s.ContainerManager@83] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+2025-04-18 11:06:20,864 [myid:] - INFO  [main:o.a.z.a.ZKAuditProvider@42] - ZooKeeper audit is disabled.
+2025-04-18 11:06:48,600 [myid:] - WARN  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@393] - Close of session 0x0
+java.io.IOException: Len error. A message from /[0:0:0:0:0:0:0:1]:49949 with advertised length of 1195725856 is either a malformed message or too large to process (length is greater than jute.maxbuffer=1048575)
+	at org.apache.zookeeper.server.NIOServerCnxn.readLength(NIOServerCnxn.java:567)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:352)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2025-04-18 11:06:49,822 [myid:] - WARN  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@393] - Close of session 0x0
+java.io.IOException: Len error. A message from /[0:0:0:0:0:0:0:1]:49950 with advertised length of 1195725856 is either a malformed message or too large to process (length is greater than jute.maxbuffer=1048575)
+	at org.apache.zookeeper.server.NIOServerCnxn.readLength(NIOServerCnxn.java:567)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:352)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2025-04-18 11:06:49,827 [myid:] - WARN  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@393] - Close of session 0x0
+java.io.IOException: Len error. A message from /[0:0:0:0:0:0:0:1]:49959 with advertised length of 1195725856 is either a malformed message or too large to process (length is greater than jute.maxbuffer=1048575)
+	at org.apache.zookeeper.server.NIOServerCnxn.readLength(NIOServerCnxn.java:567)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:352)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2025-04-18 11:06:49,828 [myid:] - WARN  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@393] - Close of session 0x0
+java.io.IOException: Len error. A message from /[0:0:0:0:0:0:0:1]:49960 with advertised length of 1195725856 is either a malformed message or too large to process (length is greater than jute.maxbuffer=1048575)
+	at org.apache.zookeeper.server.NIOServerCnxn.readLength(NIOServerCnxn.java:567)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:352)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2025-04-18 11:06:50,823 [myid:] - WARN  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@393] - Close of session 0x0
+java.io.IOException: Len error. A message from /[0:0:0:0:0:0:0:1]:49966 with advertised length of 1195725856 is either a malformed message or too large to process (length is greater than jute.maxbuffer=1048575)
+	at org.apache.zookeeper.server.NIOServerCnxn.readLength(NIOServerCnxn.java:567)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:352)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2025-04-18 11:06:51,857 [myid:] - WARN  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@393] - Close of session 0x0
+java.io.IOException: Len error. A message from /[0:0:0:0:0:0:0:1]:49967 with advertised length of 1195725856 is either a malformed message or too large to process (length is greater than jute.maxbuffer=1048575)
+	at org.apache.zookeeper.server.NIOServerCnxn.readLength(NIOServerCnxn.java:567)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:352)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2025-04-18 11:06:51,859 [myid:] - WARN  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@393] - Close of session 0x0
+java.io.IOException: Len error. A message from /[0:0:0:0:0:0:0:1]:49968 with advertised length of 1195725856 is either a malformed message or too large to process (length is greater than jute.maxbuffer=1048575)
+	at org.apache.zookeeper.server.NIOServerCnxn.readLength(NIOServerCnxn.java:567)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:352)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2025-04-18 11:06:51,861 [myid:] - WARN  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@393] - Close of session 0x0
+java.io.IOException: Len error. A message from /[0:0:0:0:0:0:0:1]:49973 with advertised length of 1195725856 is either a malformed message or too large to process (length is greater than jute.maxbuffer=1048575)
+	at org.apache.zookeeper.server.NIOServerCnxn.readLength(NIOServerCnxn.java:567)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:352)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2025-04-18 11:06:51,864 [myid:] - WARN  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@393] - Close of session 0x0
+java.io.IOException: Len error. A message from /[0:0:0:0:0:0:0:1]:49974 with advertised length of 1195725856 is either a malformed message or too large to process (length is greater than jute.maxbuffer=1048575)
+	at org.apache.zookeeper.server.NIOServerCnxn.readLength(NIOServerCnxn.java:567)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:352)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2025-04-18 11:06:56,929 [myid:] - WARN  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@393] - Close of session 0x0
+java.io.IOException: Len error. A message from /[0:0:0:0:0:0:0:1]:50011 with advertised length of 1195725856 is either a malformed message or too large to process (length is greater than jute.maxbuffer=1048575)
+	at org.apache.zookeeper.server.NIOServerCnxn.readLength(NIOServerCnxn.java:567)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:352)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2025-04-18 11:07:06,028 [myid:] - WARN  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@393] - Close of session 0x0
+java.io.IOException: Len error. A message from /127.0.0.1:50052 with advertised length of 1195725856 is either a malformed message or too large to process (length is greater than jute.maxbuffer=1048575)
+	at org.apache.zookeeper.server.NIOServerCnxn.readLength(NIOServerCnxn.java:567)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:352)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2025-04-18 11:07:07,070 [myid:] - WARN  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@393] - Close of session 0x0
+java.io.IOException: Len error. A message from /127.0.0.1:50053 with advertised length of 1195725856 is either a malformed message or too large to process (length is greater than jute.maxbuffer=1048575)
+	at org.apache.zookeeper.server.NIOServerCnxn.readLength(NIOServerCnxn.java:567)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:352)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2025-04-18 11:07:07,073 [myid:] - WARN  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@393] - Close of session 0x0
+java.io.IOException: Len error. A message from /127.0.0.1:50059 with advertised length of 1195725856 is either a malformed message or too large to process (length is greater than jute.maxbuffer=1048575)
+	at org.apache.zookeeper.server.NIOServerCnxn.readLength(NIOServerCnxn.java:567)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:352)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2025-04-18 11:07:12,095 [myid:] - WARN  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@393] - Close of session 0x0
+java.io.IOException: Len error. A message from /127.0.0.1:50083 with advertised length of 1195725856 is either a malformed message or too large to process (length is greater than jute.maxbuffer=1048575)
+	at org.apache.zookeeper.server.NIOServerCnxn.readLength(NIOServerCnxn.java:567)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:352)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:508)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2025-04-18 11:17:17,388 [myid:] - WARN  [NIOWorkerThread-15:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:52960; will be dropped if server is in r-o mode
+2025-04-18 11:17:17,453 [myid:] - INFO  [SyncThread:0:o.a.z.s.p.FileTxnLog@291] - Creating new log file: log.1
+2025-04-18 11:24:46,594 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:52960, session = 0x1002d94f39d0000
+2025-04-18 11:24:47,522 [myid:] - WARN  [NIOWorkerThread-10:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:55067; will be dropped if server is in r-o mode
+2025-04-18 11:25:08,441 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0000, timeout of 30000ms exceeded
+2025-04-18 11:26:03,007 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:55067, session = 0x1002d94f39d0001
+2025-04-18 11:26:03,784 [myid:] - WARN  [NIOWorkerThread-11:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:55430; will be dropped if server is in r-o mode
+2025-04-18 11:26:25,873 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:55430, session = 0x1002d94f39d0002
+2025-04-18 11:26:26,644 [myid:] - WARN  [NIOWorkerThread-12:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:55545; will be dropped if server is in r-o mode
+2025-04-18 11:26:28,437 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0001, timeout of 30000ms exceeded
+2025-04-18 11:26:54,441 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0002, timeout of 30000ms exceeded
+2025-04-18 11:27:07,057 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:55545, session = 0x1002d94f39d0003
+2025-04-18 11:27:07,865 [myid:] - WARN  [NIOWorkerThread-16:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:55752; will be dropped if server is in r-o mode
+2025-04-18 11:27:36,439 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0003, timeout of 30000ms exceeded
+2025-04-18 11:27:50,246 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:55752, session = 0x1002d94f39d0004
+2025-04-18 11:27:50,953 [myid:] - WARN  [NIOWorkerThread-3:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:55965; will be dropped if server is in r-o mode
+2025-04-18 11:28:09,131 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:55965, session = 0x1002d94f39d0005
+2025-04-18 11:28:09,801 [myid:] - WARN  [NIOWorkerThread-16:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:56056; will be dropped if server is in r-o mode
+2025-04-18 11:28:18,439 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0004, timeout of 30000ms exceeded
+2025-04-18 11:28:23,817 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:56056, session = 0x1002d94f39d0006
+2025-04-18 11:28:24,214 [myid:] - WARN  [NIOWorkerThread-16:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:56126; will be dropped if server is in r-o mode
+2025-04-18 11:28:32,461 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0005, timeout of 30000ms exceeded
+2025-04-18 11:28:50,441 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0006, timeout of 30000ms exceeded
+2025-04-18 11:30:05,981 [myid:] - INFO  [NIOWorkerThread-15:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:56126, session = 0x1002d94f39d0007
+2025-04-18 11:30:06,790 [myid:] - WARN  [NIOWorkerThread-16:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:56605; will be dropped if server is in r-o mode
+2025-04-18 11:30:07,576 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:56605, session = 0x1002d94f39d0008
+2025-04-18 11:30:32,439 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0007, timeout of 30000ms exceeded
+2025-04-18 11:30:38,440 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0008, timeout of 30000ms exceeded
+2025-04-18 11:30:47,996 [myid:] - WARN  [NIOWorkerThread-11:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:56790; will be dropped if server is in r-o mode
+2025-04-18 11:30:59,319 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:56790, session = 0x1002d94f39d0009
+2025-04-18 11:31:28,441 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0009, timeout of 30000ms exceeded
+2025-04-18 11:31:37,581 [myid:] - WARN  [NIOWorkerThread-8:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:57020; will be dropped if server is in r-o mode
+2025-04-18 11:31:39,067 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57020, session = 0x1002d94f39d000a
+2025-04-18 11:32:08,440 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d000a, timeout of 30000ms exceeded
+2025-04-18 11:32:14,433 [myid:] - WARN  [NIOWorkerThread-2:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:57189; will be dropped if server is in r-o mode
+2025-04-18 11:32:19,296 [myid:] - WARN  [NIOWorkerThread-13:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:57209; will be dropped if server is in r-o mode
+2025-04-18 11:32:19,491 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57209, session = 0x1002d94f39d000c
+2025-04-18 11:32:50,441 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d000c, timeout of 30000ms exceeded
+2025-04-18 11:34:48,422 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57189, session = 0x1002d94f39d000b
+2025-04-18 11:34:49,446 [myid:] - WARN  [NIOWorkerThread-13:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:57942; will be dropped if server is in r-o mode
+2025-04-18 11:34:57,367 [myid:] - WARN  [NIOWorkerThread-10:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:57977; will be dropped if server is in r-o mode
+2025-04-18 11:34:57,549 [myid:] - INFO  [NIOWorkerThread-10:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57977, session = 0x1002d94f39d000e
+2025-04-18 11:35:16,442 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d000b, timeout of 30000ms exceeded
+2025-04-18 11:35:28,441 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d000e, timeout of 30000ms exceeded
+2025-04-18 11:35:44,431 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57942, session = 0x1002d94f39d000d
+2025-04-18 11:35:45,104 [myid:] - WARN  [NIOWorkerThread-7:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:58189; will be dropped if server is in r-o mode
+2025-04-18 11:35:49,029 [myid:] - WARN  [NIOWorkerThread-1:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:58208; will be dropped if server is in r-o mode
+2025-04-18 11:35:49,207 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58208, session = 0x1002d94f39d0010
+2025-04-18 11:36:08,442 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d000d, timeout of 30000ms exceeded
+2025-04-18 11:36:20,441 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0010, timeout of 30000ms exceeded
+2025-04-18 11:37:15,231 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58189, session = 0x1002d94f39d000f
+2025-04-18 11:37:16,948 [myid:] - WARN  [NIOWorkerThread-6:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:58629; will be dropped if server is in r-o mode
+2025-04-18 11:37:40,442 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d000f, timeout of 30000ms exceeded
+2025-04-18 11:38:14,288 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58629, session = 0x1002d94f39d0011
+2025-04-18 11:38:14,900 [myid:] - WARN  [NIOWorkerThread-15:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:58895; will be dropped if server is in r-o mode
+2025-04-18 11:38:19,317 [myid:] - WARN  [NIOWorkerThread-9:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:58913; will be dropped if server is in r-o mode
+2025-04-18 11:38:42,443 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0011, timeout of 30000ms exceeded
+2025-04-18 11:39:41,014 [myid:] - INFO  [NIOWorkerThread-13:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58895, session = 0x1002d94f39d0012
+2025-04-18 11:39:41,872 [myid:] - WARN  [NIOWorkerThread-12:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:59333; will be dropped if server is in r-o mode
+2025-04-18 11:39:45,877 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58913, session = 0x1002d94f39d0013
+2025-04-18 11:40:04,444 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0012, timeout of 30000ms exceeded
+2025-04-18 11:40:12,444 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0013, timeout of 30000ms exceeded
+2025-04-18 11:40:48,209 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:59333, session = 0x1002d94f39d0014
+2025-04-18 11:40:48,992 [myid:] - WARN  [NIOWorkerThread-13:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:59645; will be dropped if server is in r-o mode
+2025-04-18 11:40:59,117 [myid:] - WARN  [NIOWorkerThread-7:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:59692; will be dropped if server is in r-o mode
+2025-04-18 11:41:16,444 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0014, timeout of 30000ms exceeded
+2025-04-18 11:42:23,481 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:59645, session = 0x1002d94f39d0015
+2025-04-18 11:42:24,255 [myid:] - WARN  [NIOWorkerThread-13:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:60101; will be dropped if server is in r-o mode
+2025-04-18 11:42:44,680 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:60101, session = 0x1002d94f39d0017
+2025-04-18 11:42:45,145 [myid:] - WARN  [NIOWorkerThread-4:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:60195; will be dropped if server is in r-o mode
+2025-04-18 11:42:48,444 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0015, timeout of 30000ms exceeded
+2025-04-18 11:42:50,198 [myid:] - INFO  [NIOWorkerThread-6:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:60195, session = 0x1002d94f39d0018
+2025-04-18 11:42:50,669 [myid:] - WARN  [NIOWorkerThread-8:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:60224; will be dropped if server is in r-o mode
+2025-04-18 11:42:53,522 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:59692, session = 0x1002d94f39d0016
+2025-04-18 11:42:55,594 [myid:] - WARN  [NIOWorkerThread-7:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:60252; will be dropped if server is in r-o mode
+2025-04-18 11:43:14,444 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0017, timeout of 30000ms exceeded
+2025-04-18 11:43:20,445 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0018, timeout of 30000ms exceeded
+2025-04-18 11:43:22,445 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0016, timeout of 30000ms exceeded
+2025-04-18 11:44:20,696 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:60224, session = 0x1002d94f39d0019
+2025-04-18 11:44:21,595 [myid:] - WARN  [NIOWorkerThread-2:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:60670; will be dropped if server is in r-o mode
+2025-04-18 11:44:52,450 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0019, timeout of 30000ms exceeded
+2025-04-18 11:46:18,567 [myid:] - INFO  [NIOWorkerThread-3:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:60670, session = 0x1002d94f39d001b
+2025-04-18 11:46:19,373 [myid:] - WARN  [NIOWorkerThread-2:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:61237; will be dropped if server is in r-o mode
+2025-04-18 11:46:21,491 [myid:] - INFO  [NIOWorkerThread-16:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:60252, session = 0x1002d94f39d001a
+2025-04-18 11:46:23,370 [myid:] - WARN  [NIOWorkerThread-14:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:61257; will be dropped if server is in r-o mode
+2025-04-18 11:46:44,453 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d001b, timeout of 30000ms exceeded
+2025-04-18 11:46:50,450 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d001a, timeout of 30000ms exceeded
+2025-04-18 11:57:45,415 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:61237, session = 0x1002d94f39d001c
+2025-04-18 11:57:48,615 [myid:] - WARN  [NIOWorkerThread-8:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:64406; will be dropped if server is in r-o mode
+2025-04-18 11:57:49,028 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:61257, session = 0x1002d94f39d001d
+2025-04-18 11:57:51,912 [myid:] - WARN  [NIOWorkerThread-11:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:64425; will be dropped if server is in r-o mode
+2025-04-18 11:58:16,457 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d001c, timeout of 30000ms exceeded
+2025-04-18 11:58:20,451 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d001d, timeout of 30000ms exceeded

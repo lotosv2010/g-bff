@@ -28,8 +28,8 @@ server.addService({
       const [rows] = await connection.execute(`SELECT id,title,content,status FROM post WHERE id=${userId} limit 1`);
       return rows[0];
     },
-    async getPostList() {
-      const [rows] = await connection.execute(`SELECT id,title,content,status FROM post`);
+    async getPostList(userId) {
+      const [rows] = await connection.execute(`SELECT id,title,content,status FROM post WHERE user_id=${userId}`);
       return rows;
     },
     async getPostCount() {

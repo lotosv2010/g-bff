@@ -19,7 +19,7 @@ async function invoke() {
   const result = await consumer.invoke('getPostInfo', [1], { responseTimeout: 3000 });
   // 输出结果
   console.log(result);
-  const list = await consumer.invoke('getPostList', [], { responseTimeout: 3000 });
+  const list = await consumer.invoke('getPostList', [1], { responseTimeout: 3000 });
   console.log(list);
   const count = await consumer.invoke('getPostCount', [], { responseTimeout: 3000 });
   console.log(count);

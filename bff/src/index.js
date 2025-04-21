@@ -1,6 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const rpcMiddleware = require('../middleware/rpc');
+const catchMiddleware = require('../middleware/catch');
 
 const app = express();
 
@@ -13,11 +14,20 @@ app.use(rpcMiddleware({
     'com.g.bff.user',
     'com.g.bff.post'
   ]
-}));
+}))
+app.use(catchMiddleware());
 
 app.get('/', async (req, res) => {
   const { userId } = req.query;
   const { user, post } = res?.rpcConsumers || {};
+
+  const cacheKey = `${req.method}-${req.path}-${userId}`;
+  let cacheData = await res.cache.get(cacheKey);
+  console.log('cacheData', cacheData);
+  if (cacheData) {
+    return res.json(cacheData);
+  }
+
   const [userInfo, postList] = await Promise.all([
     user.invoke('getUserInfo', [userId]),
     post.invoke('getPostList', [userId])
@@ -25,7 +35,14 @@ app.get('/', async (req, res) => {
   // 裁剪数据
   Reflect.deleteProperty(userInfo, 'password');
   // 数据脱敏
-  Reflect.set(userInfo, 'phone', userInfo.phone.replace(/(\d{3})\d{4}(\d{4})/, '$1****$2'))
+  Reflect.set(userInfo, 'phone', userInfo.phone.replace(/(\d{3})\d{4}(\d{4})/, '$1****$2'));
+  // 数据适配
+  // userInfo.avatar = "http://www.zhufengpeixun.cn/" + userInfo.avatar;
+  cacheData = {
+    userInfo,
+    postList
+  };
+  await res.cache.set(cacheKey, cacheData);
   res.json({
     userInfo,
     postList

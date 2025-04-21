@@ -9,3 +9,6 @@
 {"method":"GET","path":"/","userId":"1"}
 {"method":"GET","path":"/","userId":"1"}
 {"method":"GET","path":"/","userId":"1"}
+{"method":"GET","path":"/","userId":"1"}
+{"method":"GET","path":"/","userId":"1"}
+{"method":"GET","path":"/","userId":"1"}

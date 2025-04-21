@@ -63,14 +63,14 @@ class RedisStore {
 }
 
 const cacheMiddleware = (options ={}) => {
+  // 创建缓存存储实例
+  const cacheStore = new CacheStore();
+  // 添加内存缓存
+  cacheStore.add(new MemoryStore());
+  // 添加 Redis 缓存
+  const redisStore = new RedisStore(options);
+  cacheStore.add(redisStore);
   return  async (req, res, next) => {
-    // 创建缓存存储实例
-    const cacheStore = new CacheStore();
-    // 添加内存缓存
-    cacheStore.add(new MemoryStore());
-    // 添加 Redis 缓存
-    const redisStore = new RedisStore(options);
-    cacheStore.add(redisStore);
     // 将缓存存储实例添加到响应对象中
     res.cache = cacheStore;
     await next();

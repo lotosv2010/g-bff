@@ -3,7 +3,6 @@ const morgan = require('morgan');
 const rpcMiddleware = require('../middleware/rpc');
 const catchMiddleware = require('../middleware/catch');
 const mqMiddleware = require('../middleware/mq');
-require('./logger'); // 引入日志中间件
 
 const app = express();
 

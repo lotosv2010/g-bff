@@ -447,3 +447,4 @@ java.io.IOException: Len error. A message from /127.0.0.1:50083 with advertised 
 2025-04-21 13:51:21,719 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0049, timeout of 30000ms exceeded
 2025-04-21 13:52:47,654 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:64490, session = 0x1002d94f39d004a
 2025-04-21 13:53:15,725 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d004a, timeout of 30000ms exceeded
+2025-04-21 14:28:07,903 [myid:] - WARN  [NIOWorkerThread-3:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:60225; will be dropped if server is in r-o mode

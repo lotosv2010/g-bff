@@ -403,3 +403,47 @@ java.io.IOException: Len error. A message from /127.0.0.1:50083 with advertised 
 2025-04-21 11:16:05,892 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:61105, session = 0x1002d94f39d003b
 2025-04-21 11:16:10,749 [myid:] - WARN  [NIOWorkerThread-10:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:61328; will be dropped if server is in r-o mode
 2025-04-21 11:16:37,458 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d003b, timeout of 30000ms exceeded
+2025-04-21 11:17:44,833 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:61328, session = 0x1002d94f39d003c
+2025-04-21 11:18:11,459 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d003c, timeout of 30000ms exceeded
+2025-04-21 11:30:29,539 [myid:] - WARN  [NIOWorkerThread-4:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:65435; will be dropped if server is in r-o mode
+2025-04-21 11:50:55,750 [myid:] - INFO  [NIOWorkerThread-8:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:65435, session = 0x1002d94f39d003d
+2025-04-21 11:51:03,122 [myid:] - WARN  [NIOWorkerThread-9:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:57457; will be dropped if server is in r-o mode
+2025-04-21 11:51:21,447 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d003d, timeout of 30000ms exceeded
+2025-04-21 11:51:38,048 [myid:] - INFO  [NIOWorkerThread-7:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57457, session = 0x1002d94f39d003e
+2025-04-21 11:51:41,742 [myid:] - WARN  [NIOWorkerThread-1:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:57684; will be dropped if server is in r-o mode
+2025-04-21 11:52:05,443 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d003e, timeout of 30000ms exceeded
+2025-04-21 12:59:53,987 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57684, session = 0x1002d94f39d003f
+2025-04-21 12:59:59,020 [myid:] - WARN  [NIOWorkerThread-10:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:63818; will be dropped if server is in r-o mode
+2025-04-21 13:00:23,638 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d003f, timeout of 30000ms exceeded
+2025-04-21 13:31:30,268 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:63818, session = 0x1002d94f39d0040
+2025-04-21 13:31:40,132 [myid:] - WARN  [NIOWorkerThread-7:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:57946; will be dropped if server is in r-o mode
+2025-04-21 13:32:01,692 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0040, timeout of 30000ms exceeded
+2025-04-21 13:32:46,190 [myid:] - INFO  [NIOWorkerThread-12:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:57946, session = 0x1002d94f39d0041
+2025-04-21 13:33:11,692 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0041, timeout of 30000ms exceeded
+2025-04-21 13:33:26,824 [myid:] - WARN  [NIOWorkerThread-14:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:58537; will be dropped if server is in r-o mode
+2025-04-21 13:33:40,560 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58537, session = 0x1002d94f39d0042
+2025-04-21 13:33:46,540 [myid:] - WARN  [NIOWorkerThread-9:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:58648; will be dropped if server is in r-o mode
+2025-04-21 13:34:07,696 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0042, timeout of 30000ms exceeded
+2025-04-21 13:34:22,291 [myid:] - INFO  [NIOWorkerThread-14:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58648, session = 0x1002d94f39d0043
+2025-04-21 13:34:27,269 [myid:] - WARN  [NIOWorkerThread-7:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:58866; will be dropped if server is in r-o mode
+2025-04-21 13:34:47,695 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0043, timeout of 30000ms exceeded
+2025-04-21 13:35:00,167 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:58866, session = 0x1002d94f39d0044
+2025-04-21 13:35:09,803 [myid:] - WARN  [NIOWorkerThread-15:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:59087; will be dropped if server is in r-o mode
+2025-04-21 13:35:27,695 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0044, timeout of 30000ms exceeded
+2025-04-21 13:39:34,075 [myid:] - INFO  [NIOWorkerThread-4:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:59087, session = 0x1002d94f39d0045
+2025-04-21 13:39:40,255 [myid:] - WARN  [NIOWorkerThread-12:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:60695; will be dropped if server is in r-o mode
+2025-04-21 13:40:01,703 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0045, timeout of 30000ms exceeded
+2025-04-21 13:40:02,523 [myid:] - INFO  [NIOWorkerThread-9:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:60695, session = 0x1002d94f39d0046
+2025-04-21 13:40:09,941 [myid:] - WARN  [NIOWorkerThread-10:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:60898; will be dropped if server is in r-o mode
+2025-04-21 13:40:17,158 [myid:] - INFO  [NIOWorkerThread-5:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:60898, session = 0x1002d94f39d0047
+2025-04-21 13:40:21,068 [myid:] - WARN  [NIOWorkerThread-1:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:60962; will be dropped if server is in r-o mode
+2025-04-21 13:40:31,704 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0046, timeout of 30000ms exceeded
+2025-04-21 13:40:41,702 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0047, timeout of 30000ms exceeded
+2025-04-21 13:48:15,937 [myid:] - INFO  [NIOWorkerThread-1:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:60962, session = 0x1002d94f39d0048
+2025-04-21 13:48:41,717 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0048, timeout of 30000ms exceeded
+2025-04-21 13:49:39,940 [myid:] - WARN  [NIOWorkerThread-11:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:63992; will be dropped if server is in r-o mode
+2025-04-21 13:51:00,006 [myid:] - INFO  [NIOWorkerThread-11:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:63992, session = 0x1002d94f39d0049
+2025-04-21 13:51:04,139 [myid:] - WARN  [NIOWorkerThread-4:o.a.z.s.ZooKeeperServer@1494] - Connection request from old client /127.0.0.1:64490; will be dropped if server is in r-o mode
+2025-04-21 13:51:21,719 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d0049, timeout of 30000ms exceeded
+2025-04-21 13:52:47,654 [myid:] - INFO  [NIOWorkerThread-2:o.a.z.s.NIOServerCnxn@342] - Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:64490, session = 0x1002d94f39d004a
+2025-04-21 13:53:15,725 [myid:] - INFO  [SessionTracker:o.a.z.s.ZooKeeperServer@730] - Expiring session 0x1002d94f39d004a, timeout of 30000ms exceeded
